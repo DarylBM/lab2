@@ -10,7 +10,7 @@
     <style>
    body {
          font-family: Arial, sans-serif;
-         text-align: center;
+         text-align: left;
          background-color: #ffb6c1;
          padding: 20px;
      }
@@ -83,7 +83,7 @@
       </div>
     </div>
   </div>
-<!-- Modal for playlist creation form -->
+
 <div class="modal fade" id="createPlaylistModal" tabindex="-1" aria-labelledby="createPlaylistModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
@@ -92,7 +92,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-               <!-- Add your form here -->
+       
                <form action="/createplaylist" method="post">
                     <div class="mb-3">
                         <label for="playlistName" class="form-label">Playlist Name</label>
@@ -119,7 +119,7 @@
   My Playlist
 </button><br></br>
 
-<!--INPUT FILE -->
+
 <h3>Upload a Song:</h3>
 <form action="/addsong" method="post" enctype="multipart/form-data">
   <label for="myfile">Select file:</label>
