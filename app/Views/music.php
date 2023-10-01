@@ -11,7 +11,7 @@
    body {
          font-family: Arial, sans-serif;
          text-align: left;
-         background-color: #ffb6c1;
+         background-color: skyblue;
          padding: 20px;
      }
 
@@ -46,7 +46,7 @@
      }
 
      #playlist li:hover {
-         background-color: #C5C6C5;
+         background-color: red;
      }
 
      #playlist li.active {
